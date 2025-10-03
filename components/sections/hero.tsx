@@ -78,17 +78,7 @@ export function Hero() {
 
   return (
     <section className="relative pt-20 pb-16 min-h-[1000px] overflow-hidden bg-dark-bg">
-      {/* Decorative illustration below header */}
-      <div className="absolute top-[200px] left-0 z-0 pointer-events-none pl-[100px]">
-        <Image
-          src="/illu/qua-cau-2.png"
-          alt="Decorative illustration below header"
-          width={400}
-          height={400}
-          className="opacity-20 hover:opacity-30 transition-opacity duration-300 scale-[2]"
-          priority={false}
-        />
-      </div>
+      {/* Decorative illustration moved to Features section */}
       
       <Container>
         {/* Hero Content */}
@@ -113,9 +103,11 @@ export function Hero() {
               <Button variant="primary" size="xl">
                 See our work
               </Button>
-              <Button variant="secondary" size="xl">
-                Learn more
-              </Button>
+              <Link href="/cv/me">
+                <Button variant="secondary" size="xl">
+                  Xem hồ sơ năng lực
+                </Button>
+              </Link>
             </div>
           </div>
 

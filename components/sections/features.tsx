@@ -74,6 +74,17 @@ export function Features() {
   return (
     <section className="py-12 relative overflow-hidden bg-dark-bg">
 
+      {/* Decorative illustration below header (moved from Hero) */}
+      <div className="absolute top-[200px] left-0 z-0 pointer-events-none pl-[100px]">
+        <img
+          src="/illu/qua-cau-2.png"
+          alt="Decorative illustration below header"
+          width={350}
+          height={350}
+          className="opacity-20 hover:opacity-30 transition-opacity duration-300 scale-[2]"
+        />
+      </div>
+
       <Container>
         {/* Header with fade in effect */}
         <div 

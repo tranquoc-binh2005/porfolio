@@ -1,0 +1,49 @@
+{
+  "basics": {
+    "name": "Nguyen Van A",
+    "title": "Senior Full‑Stack Engineer",
+    "location": "Ho Chi Minh City, Vietnam",
+    "email": "nguyenvana@example.com",
+    "phone": "+84 912 345 678",
+    "website": "https://example.dev",
+    "summary": "Engineer focusing on web platforms, scalable APIs and delightful UX."
+  },
+  "skills": [
+    { "name": "Web Platforms", "keywords": ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"] },
+    { "name": "APIs & Data", "keywords": ["Node.js", "REST", "GraphQL", "Prisma", "PostgreSQL", "Caching"] },
+    { "name": "Cloud & DevOps", "keywords": ["Vercel", "Docker", "CI/CD", "Monitoring"] },
+    { "name": "UX & Accessibility", "keywords": ["Design Systems", "WCAG", "Responsive", "Motion UI"] }
+  ],
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "position": "Lead Frontend Engineer",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "summary": "Led the web platform modernization using Next.js, improved performance and DX.",
+      "highlights": [
+        "Cut LCP by 45% with SSR, caching and image optimization",
+        "Built design system adopted by 4 product teams"
+      ]
+    },
+    {
+      "company": "Tech Studio",
+      "position": "Full‑Stack Engineer",
+      "startDate": "2019-03",
+      "endDate": "2021-12",
+      "summary": "Delivered greenfield SaaS with Node.js/GraphQL and PostgreSQL",
+      "highlights": [
+        "Designed scalable Prisma schema and migration flow",
+        "Implemented CI/CD on Vercel and Dockerized workers"
+      ]
+    }
+  ],
+  "education": [
+    { "institution": "HCMUT", "area": "Computer Science", "studyType": "BSc", "startDate": "2015", "endDate": "2019" }
+  ],
+  "projects": [
+    { "name": "Portfolio Platform", "summary": "Headless CMS + Next.js with ISR, multi‑tenant themes." },
+    { "name": "Realtime Dashboard", "summary": "WebSocket analytics with smoothing and anomaly detection." }
+  ]
+}
+

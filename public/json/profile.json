@@ -1,0 +1,67 @@
+{
+    "profile": {
+      "name": "Tran Quoc Binh",
+      "title": "Backend Developer",
+      "website": "https://cuteocutephomaique.netlify.app/",
+      "email": "binhtranquoc2005@gmail.com"
+    },
+    "careerObjective": {
+      "shortTerm": "Enhance programming skills with a strong focus on RESTful API design and system architecture. Consistently deliver assigned responsibilities while expanding technical expertise and contributing effectively to the current company’s growth.",
+      "longTerm": "Become a well-rounded professional software engineer with solid knowledge of software architecture, actively participating in large-scale projects, and building a long-term commitment to the company’s success."
+    },
+    "experience": [
+      {
+        "position": "Laravel Developer",
+        "company": "Deligroup Joint Stock Company",
+        "date": "June 2025 – Present",
+        "projects": [
+          {
+            "title": "Backend Developer – Deligo Delivery Platform",
+            "responsibilities": [
+              "Maintained and optimized backend services for the Deligo delivery application.",
+              "Developed the shipment fare calculation module, ensuring accuracy and scalability.",
+              "Integrated third-party APIs (Global Care) to support shipment insurance and related services.",
+              "Maintained and enhanced the authentication flow, adding modern online authentication methods.",
+              "Utilized Vietmap and Google Maps APIs to calculate routes, distances, and optimize delivery paths.",
+              "Collaborated closely with frontend engineers to build and refine the system administration dashboard.",
+              "Implemented CI/CD pipelines with Docker for seamless deployment across UAT and DEV environments.",
+              "Built a notification system for both web (Pusher) and mobile apps (Firebase Cloud Messaging)."
+            ]
+          },
+          {
+            "title": "Laravel Developer – Outsourced OMS & TMS Systems",
+            "responsibilities": [
+              "Contributed to building the core Transportation Management System (TMS) using the service–repository design pattern.",
+              "Participated in designing and analyzing key business workflows for OMS/TMS solutions.",
+              "Developed core system modules including authentication, warehouse, location, and trip management.",
+              "Implemented CI/CD pipelines with GitHub Actions for both API services and the web admin portal.",
+              "Maintained and enhanced system functionalities based on evolving customer requirements.",
+              "Utilized Redis for system caching to improve performance and scalability."
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Website selling nutritious seeds",
+        "type": "Freelancer Project",
+        "technologies": ["PHP", "Javascript", "jQuery", "Redis", "Pusher"],
+        "responsibilities": [
+          "Retain Routing, Request Handling, Middleware, Exception Handling with pure PHP.",
+          "Applied DTO and Service-Repository Pattern to the code structure. Created a flexible image upload system with Pipeline Pattern.",
+          "Integrated Redis to cache data, automatically update when there is a change.",
+          "Developed SPA with jQuery and Ajax for smooth experience.",
+          "Optimized database performance by improving SQL Queries and using Indexes."
+        ]
+      }
+    ],
+    "skills": {
+      "languages": ["PHP", "JavaScript", "TypeScript", "Ajax"],
+      "frameworksAndLibraries": ["Laravel", "Next.js", "Node.js", "jQuery", "TailwindCSS"],
+      "databases": ["MySQL", "PostgreSQL", "Redis (caching, queues)"],
+      "toolsAndTechnologies": ["Git", "Figma", "Postman", "Docker", "Portainer", "Termius"],
+      "devOpsAndDeployment": ["Docker", "GitHub Actions (CI/CD)", "Nginx", "Apache2", "AWS EC2 + S3 (basic)"]
+    }
+  }
+  
